@@ -3,10 +3,10 @@ b=int(input("b="))
 c=int(input("c="))
 
 max=a
-if(max<b):
+if max<b:
    max=b
 
-if (max<c):
+if max<c:
     max=c
 
 print("So lon nhat: ", max)
