@@ -1,5 +1,5 @@
 def Input():
-    n = int(input("n="))
+    n = int(input())
     L = []
     for i in range(n):
         t=int(input())
@@ -18,4 +18,5 @@ def Output(max, min):
     print(max, min)
 L = Input()
 max, min = Search(L)
-Output(max, min)
+Output(max)
+Output(min)

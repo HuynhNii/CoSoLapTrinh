@@ -1,4 +1,4 @@
-n = int(input("n="))
+n = int(input())
 L = []
 for i in range(n):
     x=int(input())
@@ -12,8 +12,8 @@ for i in L:
     if i % 2==0:
         b+=i
         c+=1
-print("SND=",a,sep="")
-if  b> 0:
-    print("TBC=", b/c,sep="")
+print(a)
+if  b > 0:
+    print(b/c)
 else:
     print("TBC=0")
